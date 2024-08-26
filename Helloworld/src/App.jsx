@@ -1,15 +1,13 @@
-import { Fragment } from "react"
-import HolaMundo from "./componenetes/HolaMundo"
-import Mensaje from "./componenetes/Mensaje";
+import { Fragment } from "react";
+import Titulo from "./componenetes/Titulo";
+import Pie from "./componenetes/Pie";
 
-import (Fragment)
 
 function App(){
   return(
     <>
-    <HolaMundo/>
-    <HolaMundo/>
-    <Mensaje/>
+    <Titulo/>
+    <Pie/>
     </>
   );
 }
