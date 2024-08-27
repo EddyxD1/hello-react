@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import'./componentes/estilos.css'
+import'./estilos.css'
 
 function Ciudad ({nombre, descripcion, imagen}){
     return (
@@ -7,7 +7,7 @@ function Ciudad ({nombre, descripcion, imagen}){
         <div className="Ciudad">
             <h3 className="Ciudad_titulo">{nombre}</h3>
             <p className="Ciudad_descripcion">{descripcion}</p>
-            <img src={imagen} alt={nombre} />
+            <img src={imagen} alt={nombre} className="Ciudad_imagen"/>
         </div>
         </>
     );

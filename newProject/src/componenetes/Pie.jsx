@@ -5,7 +5,7 @@ function Pie(){
     return(
         <>
         <h4>TravelFast</h4>
-        <h5>Expertor en Recorrer el Perú</h5>
+        <h5>Expertos en Recorrer el Perú</h5>
         </>
     );
 }
